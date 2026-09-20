@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables & local secrets
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / distribution / egg-info
+build/
+dist/
+*.egg-info/
