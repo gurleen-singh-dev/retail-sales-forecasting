@@ -1,4 +1,4 @@
-# Retail Sales Forecasting: Store 1 GROCERY I
+# Retail Sales Forecasting
 
 ## Overview
 
@@ -107,9 +107,11 @@ A detailed error analysis was conducted in `notebook/06_error_analysis.ipynb`:
 
 ### Environment Setup
 
-Create and activate a virtual environment, then install the project dependencies:
+Clone the repository and install the project dependencies:
 
 ```bash
+git clone https://github.com/gurleen-singh-dev/retail-sales-forecasting.git
+cd retail-sales-forecasting
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
